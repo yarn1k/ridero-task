@@ -2,9 +2,10 @@
   "name": "ridero-microservice",
   "version": "1.0.0",
   "description": "Upload File Service",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/yarn1k/ridero-task/issues"
   },
-  "homepage": "https://github.com/yarn1k/ridero-task#readme"
+  "homepage": "https://github.com/yarn1k/ridero-task#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^21.0.3",
+    "yauzl": "^2.10.0"
+  }
 }
