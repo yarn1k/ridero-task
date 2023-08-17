@@ -1,0 +1,19 @@
+{
+  "name": "ridero-microservice",
+  "version": "1.0.0",
+  "description": "Upload File Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarn1k/ridero-task.git"
+  },
+  "author": "Nikitinsky Yaroslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarn1k/ridero-task/issues"
+  },
+  "homepage": "https://github.com/yarn1k/ridero-task#readme"
+}
